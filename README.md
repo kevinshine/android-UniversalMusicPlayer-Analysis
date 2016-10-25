@@ -22,7 +22,7 @@ uamp的代码按照标准的MVC模式划分目录，model，ui，playback分别�
 ### 3. 流程图
 简单的播放流程如下：
 
-![uml](./aump_flow.svg)   
+![uml](./uamp_flow.svg)   
 
 
 ### 4. 总体设计
