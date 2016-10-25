@@ -10,19 +10,19 @@ android-UniversalMusicPlayer 源码解析
 Android5.0 提出了全新的MediaSession概念用于播放器与控制器之间进行交互，它的出现为多控制端单服务端的结构提供了有力的支持（一套方案支持Auto，Wear）。uamp底层播放架构都是基于
 v4包中的MediaSessionCompat，所以uamp同时也是非常好的MediaSession框架demo。
 参考网上的一张结构图可以更好的理解：
-![mediasession](./aump_res/mediasession_framework_flow.png)  
+![mediasession](./mediasession_framework_flow.png)  
 
 ### 2. 详细设计
 #### 2.1 软件架构介绍
 uamp的代码按照标准的MVC模式划分目录，model，ui，playback分别代表了各个层。
-![uml](./aump_res/folders.jpeg)
+![uml](./folders.jpeg)
 #### 2.2 类关系图
-![uml](./aump_res/uml.svg) 
+![uml](./uml.svg) 
 
 ### 3. 流程图
 简单的播放流程如下：
 
-![uml](./aump_res/aump_flow.svg)   
+![uml](./aump_flow.svg)   
 
 
 ### 4. 总体设计
